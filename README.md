@@ -1,3 +1,7 @@
+
+> [!NOTE]
+> I am working on the files for **Day 4 to Day 7** and will upload them soon. 🚀
+
 # YoungDevInterns_EthicalHacking_Tasks 🛡️💻
 Welcome to the official repository for the **YoungDev Interns Ethical Hacking Internship**. This repository serves as a professional log of all tasks, methodologies, and technical reports completed during this program.
 ## 📌 Internship Overview
