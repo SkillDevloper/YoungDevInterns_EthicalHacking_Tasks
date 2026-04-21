@@ -11,7 +11,7 @@ Welcome to my official repository for the **YoungDev Interns Ethical Hacking Rem
 ---
 
 ## 📑 Table of Contents
-1. [Week 1: Foundations of Ethical Hacking](https://github.com/SkillDevloper/YoungDevInterns_EthicalHacking_Tasks/tree/main/Week%201)
+1. [Week 1: Foundations of Ethical Hacking](https://github.com/SkillDevloper/YoungDevInterns_EthicalHacking_Tasks/tree/main/Week%201%20-%20Basic)
 2. [Week 2: Scanning, Enumeration & System Hacking]
 3. [Week 3 & 4: Exploitation & Web Security]
 4. [Toolset & Technologies](#toolset)
