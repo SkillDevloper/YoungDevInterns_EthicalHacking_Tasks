@@ -1,39 +1,95 @@
+# 🛡️ YoungDev Interns: Ethical Hacking Internship (01 Month)
 
-> [!NOTE]
-> I am working on the files for **Day 4 to Day 7** and will upload them soon. 🚀
+Welcome to my official repository for the **YoungDev Interns Ethical Hacking Remote Internship**. This project documents my journey from a cybersecurity enthusiast to a practitioner, covering foundational, intermediate, and expert-level security tasks.
 
-# YoungDevInterns_EthicalHacking_Tasks 🛡️💻
-Welcome to the official repository for the **YoungDev Interns Ethical Hacking Internship**. This repository serves as a professional log of all tasks, methodologies, and technical reports completed during this program.
-## 📌 Internship Overview
- * **Company:** YoungDev Interns
- * **Role:** Ethical Hacking Intern
- * **Duration:** 4 Weeks
- * **Focus:** Penetration Testing, Network Security, and Vulnerability Analysis.
-## 📅 Week 1: Foundations of Ethical Hacking
-The first week focused on establishing a professional hacking environment and mastering the core principles of networking and reconnaissance.
-### 🛠️ Tasks Completed:
- * **Day 1: Environment Setup** – Built a secure sandbox using VirtualBox featuring Kali Linux (Attacker) and Metasploitable2 (Victim).
- * **Day 2: Linux Mastery** – Practiced essential CLI commands for file management and system administration.
- * **Day 3: Networking Basics** – Conducted a deep dive into TCP/IP, the OSI Model, and packet analysis using **Wireshark**.
- * **Day 4: Passive Reconnaissance** – Performed information gathering using WHOIS, DNS lookups, and theHarvester.
- * **Day 5: Active Scanning** – Mastered **Nmap** for service version detection and OS fingerprinting.
- * **Day 6: Vulnerability Analysis** – Utilized the Nmap Scripting Engine (NSE) to identify target weaknesses.
- * **Day 7: Documentation** – Compiled all technical findings and reports.
-## 🛠️ Tools & Technologies
- * **OS:** Kali Linux, Metasploitable2
- * **Virtualization:** Oracle VM VirtualBox
- * **Scanning:** Nmap, Netstat, Hping3
- * **Analysis:** Wireshark, Searchsploit
- * **Recon:** WHOIS, theHarvester, NSLookup, Shodan
-## 🚀 Methodology
-Industry-standard ethical hacking phases were followed to ensure all testing was professional, structured, and accurate.
-## 📁 Repository Structure
- * Week-1/: Technical reports, Nmap scan logs, and lab setup screenshots.
- * Scripts/: Custom scripts and automated tools utilized during the internship.
- * Certificates/: Internship completion and task appreciation letters.
-## 🤝 Connect with Me
-Follow my progress and professional journey here:
- * **LinkedIn:** https://www.linkedin.com/in/daniyal-shahid-249a3b283
-## ⚠️ Disclaimer
-This repository is for **Educational Purposes Only**. All tasks were performed within a controlled, isolated laboratory environment. I do not encourage or support any illegal activities.
-#YoungDevInterns #EthicalHacking #CyberSecurity #InfoSec #PenetrationTesting
+## 👤 Intern Information
+- **Name:** Daniyal Shahid
+- **Role:** Ethical Hacking Intern
+- **Duration:** 01 Month (Remote)
+- **Repository:** `YoungDevInterns_EthicalHacking_Tasks`
+
+---
+
+## 📑 Table of Contents
+1. [Week 1: Foundations of Ethical Hacking](https://github.com/SkillDevloper/YoungDevInterns_EthicalHacking_Tasks/tree/main/Week%201)
+2. [Week 2: Scanning, Enumeration & System Hacking]
+3. [Week 3 & 4: Exploitation & Web Security]
+4. [Toolset & Technologies](#toolset)
+5. [Connect With Me](#connect)
+
+---
+
+<a name="week-1-foundations"></a>
+## 📂 Week 1: Foundations of Ethical Hacking (Basic)
+The objective of this week was to establish a secure environment and understand the core language of the internet: Networking.
+
+### 🛠️ Tasks & Learning:
+- **Environment Setup:** Installed **Kali Linux** on VirtualBox and deployed **Metasploitable2** as a vulnerable target machine.
+- **Linux Mastery:** Mastered CLI navigation, file permissions, and system administration.
+- **Networking Basics:** Deep dive into TCP/IP, OSI Layers, DNS, DHCP, and packet structures.
+- **Reconnaissance:** Explored Passive Recon (Whois, theHarvester) and Active Recon (Nmap).
+
+### 🔬 Hands-On:
+- Performed network discovery using `ifconfig`, `ping`, and `traceroute`.
+- Captured and analyzed live traffic packets with **Wireshark**.
+- Executed basic **Nmap** scans to map local network devices.
+
+---
+
+<a name="week-2-intermediate"></a>
+## 📂 Week 2: Scanning, Enumeration & Vulnerabilities (Intermediate)
+This week focused on finding "cracks in the armor" through advanced scanning and initial system hacking concepts.
+
+### 🛠️ Tasks & Learning:
+- **Advanced Scanning:** Version detection (`-sV`), OS fingerprinting (`-O`), and Nmap Scripting Engine (**NSE**).
+- **Web Enumeration:** Using **Nikto**, **Dirb**, and **Gobuster** to discover hidden directories and web vulnerabilities.
+- **System Hacking:** Understanding password storage (hashes) and the mechanics of dictionary/brute-force attacks.
+- **Vulnerability Research:** Mapping discovered services to **CVEs** and searching for exploits via **Searchsploit**.
+
+### 🔬 Hands-On:
+- Cracked password-protected ZIP/PDF files using **John the Ripper**.
+- Performed full enumeration on a vulnerable Linux system to identify exploitable services.
+
+---
+
+<a name="week-3--4-expert"></a>
+## 📂 Week 3 & 4: Exploitation & Web Security (Expert)
+The final phase focused on the "Gain Access" and "Escalate Privileges" stages of a penetration test.
+
+### 🛠️ Tasks & Learning:
+- **Exploitation Frameworks:** In-depth use of the **Metasploit Framework (msfconsole)** to launch payloads.
+- **Privilege Escalation:**
+    - **Linux:** SUID bits, Cronjobs, and Kernel exploits.
+    - **Windows:** Unquoted service paths and Token manipulation.
+- **Web App Hacking:** Study of the **OWASP Top 10** (SQLi, XSS, CSRF).
+- **Interception:** Using **Burp Suite** to modify HTTP requests in real-time.
+
+### 🔬 Hands-On:
+- **SQL Injection:** Performed manual and automated SQLi using **sqlmap**.
+- **CTF Challenge:** Successfully exploited a **VulnHub VM** (e.g., Mr. Robot) and escalated privileges to gain **Root Access**.
+
+---
+
+<a name="toolset"></a>
+## 🛠️ Toolset & Technologies
+- **OS:** Kali Linux, Windows 10, Metasploitable2
+- **Network:** Wireshark, Nmap, Hping3
+- **Web:** Burp Suite, Nikto, Gobuster, SQLmap
+- **Exploitation:** Metasploit, Hydra, John the Ripper
+- **Research:** Exploit-DB, CVE Mitre, Shodan
+
+---
+
+<a name="connect"></a>
+## 🤝 Connect With Me
+Every task from this internship is shared on my professional networks to contribute to the community.
+
+- **LinkedIn:** https://www.linkedin.com/in/daniyal-shahid-249a3b283
+- **Portfolio:** https://daniyalshshidportfolio.netlify.app/
+
+---
+
+### ⚠️ Disclaimer
+All activities documented in this repository were performed within a strictly controlled, legal, and authorized laboratory environment for educational purposes only. I do not support or engage in any unauthorized hacking activities.
+
+**#YoungDevInterns #EthicalHacking #CyberSecurity #PenetrationTesting #InfoSec #InternshipJourney**
